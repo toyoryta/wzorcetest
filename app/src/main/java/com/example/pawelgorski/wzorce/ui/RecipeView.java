@@ -1,8 +1,9 @@
-package domain;
+package com.example.pawelgorski.wzorce.ui;
+
+import com.example.pawelgorski.wzorce.entity.Recipe;
 
 import java.util.List;
 
-import entity.Recipe;
 
 /**
  * Created by pawelgorski on 26.11.2017.

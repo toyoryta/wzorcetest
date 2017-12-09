@@ -1,7 +1,7 @@
-package presentation;
+package com.example.pawelgorski.wzorce.presentation;
 
-import entity.domain.GetRecipes;
-import com.example.pawelgorski.wzorce.UI.RecipeView;
+import com.example.pawelgorski.wzorce.domain.GetRecipes;
+import com.example.pawelgorski.wzorce.ui.RecipeView;
 
 /**
  * Created by pawelgorski on 26.11.2017.

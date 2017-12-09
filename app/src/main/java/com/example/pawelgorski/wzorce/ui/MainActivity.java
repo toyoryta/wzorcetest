@@ -1,4 +1,4 @@
-package com.example.pawelgorski.wzorce;
+package com.example.pawelgorski.wzorce.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,11 +7,11 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import java.util.List;
+import com.example.pawelgorski.wzorce.R;
+import com.example.pawelgorski.wzorce.entity.Recipe;
+import com.example.pawelgorski.wzorce.presentation.RecipePresenter;
 
-import domain.RecipeView;
-import entity.Recipe;
-import presentation.RecipePresenter;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements RecipeView {
     RecipePresenter recipePresenter;
